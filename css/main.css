@@ -46,6 +46,14 @@ a {
     color: #fff;
     padding: 10px;
     text-align: center;
+    margin-top: 20px;
+}
+
+.nav button {
+    border: 0;
+    border-radius: 12px;
+    background-color: #3498db;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .nav a {
