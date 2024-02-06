@@ -18,7 +18,7 @@ h1, h2, h3 {
 
 /* Task #3 */
 
-ul li {
+ul > li {
     font-weight: bold;
 }
 
@@ -35,15 +35,15 @@ h2:first-of-type {
     color: indigo;
 }
 
-p.first {
+p.first a {
     color: green;
 }
 
-p.first .first a {
+p .first a {
     color: green;
 }
 
-div + p {
+div ~ p {
     color: salmon;
 }
 
