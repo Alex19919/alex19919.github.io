@@ -1,0 +1,69 @@
+/* Task #2 */
+
+h1, h2, h3 {
+    color: gray;
+}
+
+#main {
+    color: #e60202;
+}
+
+.h2 {
+    color: red;
+}
+
+.heading {
+    color: green;
+}
+
+/* Task #3 */
+
+ul li {
+    font-weight: bold;
+}
+
+section > p {
+    color: red;
+}
+
+section p {
+    font-size: 18px;
+}
+
+/* Task #4 */
+h2:first-of-type {
+    color: indigo;
+}
+
+p.first {
+    color: green;
+}
+
+p.first .first a {
+    color: green;
+}
+
+div + p {
+    color: salmon;
+}
+
+/* Task #6 */
+.translucent-box {
+    background-color: hsla(0, 100%, 50%, 0.5); 
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Task #7 */
+:root {
+    font-size: 100%; /* базовий розмір шрифта для кореневого елемента = 100% */
+}
+
+body {
+    font-size: 140%; /* розмір шрифта для body, що успадковує розмір шрифта кореневого елемента, збільшений на 40 відсотків */
+}
+
+h1 {
+    font-size: 240%; /* розмір шрифта для h1, що успадковує розмір шрифта кореневого елемента, збільшений на 140 відсотків */
+}
