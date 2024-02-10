@@ -1,0 +1,114 @@
+/* main.css */
+
+a {
+    color: indigo;
+}
+
+a:visited {
+    color: gold;
+}
+
+a:hover {
+    color: salmon;
+}
+
+a:active {
+    color: red;
+}
+
+a:focus {
+    color: orange;
+}
+
+input[type="number"] {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="number"]:valid {
+    background-color: rgba(0, 255, 0, 0.25);
+}
+
+input[type="number"]:invalid {
+    background-color: rgba(255, 0, 0, 0.25);
+}
+
+ul:nth-child(3) li:first-child{
+    color: orange;
+}
+
+ul:nth-child(4) :first-of-type {
+    color: orange;
+}
+
+ul:nth-child(5) :last-of-type {
+    color: orange;
+}
+
+ul:nth-child(6) li:not(.first-item) { 
+    color: orange; 
+}
+ul:nth-child(6) li:not(.first-item):not(:last-of-type) {
+    background: yellow;
+    color: black;
+}
+
+ol li:nth-child(2) {
+    color: orange;
+}
+
+/* Кожен парний елемент li помаранчевого кольору */
+ol li:nth-child(even) {
+    color: orange;
+}
+
+/* Кожний елемент li, крім перших п'яти, помаранчевого кольору */
+ol li:nth-child(2n+6) {
+    color: orange;
+}
+
+.ua::before {
+    content: "Слава ";
+}
+
+.hero::after {
+    content: " Слава!";
+}
+
+.cont::before {
+    content: "\00A7";
+}
+
+
+:root {
+    --primary-text-color: #000;
+    --primary-bg-color: #fff;
+    --primary-font-family: 'Roboto', sans-serif; 
+    --primary-font-size: 0.875rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+ul.categories li a {
+    color: indigo;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+ul.categories li a:hover {
+    background-color: lightgray;
+}

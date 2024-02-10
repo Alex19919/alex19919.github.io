@@ -1,0 +1,70 @@
+/* main.css */
+
+div {
+    font-size: 1.6em; 
+}
+
+span {
+    font-size: 2.56em; 
+}
+
+strong {
+    font-size: 1.6em;
+}
+
+ul {
+    list-style-type: square; 
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+:root {
+    --primary-font-family: 'Roboto', sans-serif;
+    --primary-font-size: 0.875rem;
+    --primary-text-color: #000;
+    --primary-bg-color: #fff;
+    --footer-text-color: #fff;
+    --footer-bg-color: #000;
+}
+
+footer {
+    color: var(--footer-text-color);
+    background-color: var(--footer-bg-color);
+}
+
+html {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+}
+
+body {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.45rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.footer-social {
+    
+}
+
+a {
+    text-decoration: none; 
+}
