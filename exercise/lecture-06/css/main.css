@@ -83,7 +83,7 @@ ol li:nth-child(2n+6) {
     content: "\00A7";
 }
 
-
+/* 12 */
 :root {
     --primary-text-color: #000;
     --primary-bg-color: #fff;
