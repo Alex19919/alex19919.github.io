@@ -5,7 +5,7 @@
 
 .catalog .nav {
     display: flex;
-    list-style: none; /* Видаляє маркери списку */
+    list-style: none; 
     justify-content: center; /* Вирівнює по центру */
 }
 

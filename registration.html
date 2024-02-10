@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/6a152e6a69.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <h1>Registration Page</h1>
+        <nav class="nav">
+            <a class="nav-link" href="/index.html">Home page</a>
+            <a class="nav-link" href="/catalog.html">Catalog</a>
+            <a class="nav-link" href="/blog.html">Blog</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="section">
+        <h2>Register Here</h2>
+        <form action="/submit_registration" method="post">
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age"><br>
+
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <h3>Address</h3>
+
+            <label for="country">Country:</label><br>
+            <input type="text" id="country" name="country"><br>
+
+            <label for="street">Street:</label><br>
+            <input type="text" id="street" name="street"><br>
+
+            <label for="house_number">House Number:</label><br>
+            <input type="text" id="house_number" name="house_number"><br>
+
+            <label for="apartment_number">Apartment Number:</label><br>
+            <input type="text" id="apartment_number" name="apartment_number"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>Contact: example@example.com | Phone: +123456789</p>
+        <a href="#" class="footer-link">
+            <img src="/img/favicon-facebook.png" alt="Facebook" class="icon-link" title="Facebook">            
+        </a>
+        <a href="#" class="footer-link">
+            <img src="/img/favicon-twitter.png" alt="Twitter" class="icon-link" title="Twitter">         
+        </a>
+        <a href="#" class="footer-link">
+            <img src="/img/favicon-instagram.png" alt="Instagram" class="icon-link" title="Instagram">
+        </a>
+        <p>&copy; 2024 CraftyCorner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
