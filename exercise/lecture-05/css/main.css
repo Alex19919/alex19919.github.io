@@ -1,13 +1,18 @@
 /* main.css */
 
+body {
+    font-size: 16px;
+}
 
 /* 3 */
 div {
-    font-size: 1em;
-    > span {
-        font-size: 1.6em;
-    }
+    font-size: 1em; 
 }
+
+span {
+    font-size: 1.6em; 
+}
+
 /* 4 */
 strong {
     font-size: 1.6rem;
