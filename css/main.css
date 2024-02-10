@@ -131,3 +131,40 @@ a {
     justify-content: flex-end;
 }
 
+/* Стилі для світлого режиму */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Стилі для темного режиму */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Стилі для перемикача */
+.theme-switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.theme-switch:hover {
+    background-color: #1a5276;
+}
+
+/* Стилі для іконки перемикача */
+.theme-switch-icon {
+    margin-top: 2px;
+}
