@@ -90,16 +90,16 @@ a {
     width: 100%;
     box-sizing: border-box;
     text-align: center;
-    margin-top: auto; /* розмістити футер в нижній частині екрану */
+    margin-top: auto;
+        > a { 
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease-in-out;
+            display: inline-block;
+        }
 }
 
-.footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s ease-in-out;
-    display: inline-block;
-}
 
 .footer a:hover {
     color: #fff;
@@ -107,11 +107,9 @@ a {
     margin: 0 10px;
     transition: 0.3s ease-in-out;
     display: inline-block;
-}
-
-.footer a:hover {
     transform: scale(1.1);
 }
+
 
 .icon-link {
     display: inline-block;
@@ -149,7 +147,7 @@ body.dark-mode {
     top: 20px;
     right: 20px;
     z-index: 1000;
-    background-color: #3498db;
+    background-color: #19a0da;
     color: #fff;
     border: none;
     border-radius: 50%;
