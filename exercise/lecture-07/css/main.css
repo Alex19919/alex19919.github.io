@@ -1,0 +1,32 @@
+
+* {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.negative{
+    background: linear-gradient(
+        to left, 
+        rgb(176, 215, 230) -50%,
+        rgb(25, 39, 192) -10%,
+        rgb(176, 221, 230) 0%,
+        rgb(25, 36, 192) 100%,
+        rgb(176, 215, 230)150%);
+}
+.percents{
+    background: linear-gradient(
+        to bottom, 
+        rgb(214, 228, 184) 2em,
+        rgb(15, 65, 9) 4em,
+        rgb(54, 63, 37) 8em,
+        rgb(215, 221, 205) 16em,
+        rgb(140, 159, 98) 32em,
+        rgb(15, 65, 9) 64em,
+        rgb(54, 63, 37) 128em
+        );
+}
+.radial {
+    background: radial-gradient(ellipse at top, #e0a212, transparent),
+                radial-gradient(ellipse at bottom, #ab1b19, transparent);
+}
+

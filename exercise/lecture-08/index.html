@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<style>
+                /* task #1 */
+	/* .box{ 
+        padding: 10px 20px 25px;
+        margin: 25px 20px;
+	} */
+
+                /* task #2 */
+    .box{ 
+        width: 300px; 
+        padding: 10px; 
+        border: dashed 2px green;
+    }
+
+            /* task #3 */
+    .first-box {
+        width: 200px;
+        height: 100px;
+        border: 8px solid blue;
+        padding: 20px;
+        background: yellow;
+    }
+
+            /* task #4 */
+    .second-box {
+        width: 200px;
+        height: 100px;
+        border: 8px solid blue;
+        background: yellow;
+    }
+
+            /* task #5 */
+    .task5{
+        box-sizing:content-box;
+        width: 200px;
+        border: 8px solid blue;
+        padding: 20px;
+        background: yellow;
+    }   
+              /* task #6 */
+    .task6{
+        box-sizing:border-box;
+        width: 200px;
+        border: 8px solid blue;
+        padding: 20px;
+        background: yellow;
+    }
+              /* task #7 */
+    div {
+            margin-bottom: 20px;
+            padding: 5px;
+            width: 300px;
+        }
+            
+        #example1 {
+            background-clip: border-box;
+            border: 10px dotted black;
+            padding: 15px;
+            background: lightblue;
+        }
+
+        #example2 {
+            background-clip: padding-box;
+            border: 10px dotted black;
+            padding: 15px;
+            background: lightblue;
+        }
+
+        #example3 {
+            background-clip: content-box;
+            border: 10px dotted black;
+            padding: 15px;
+            background: lightblue;
+        }
+                  /* task #8 */
+        h1 {
+            display: inline-block;
+        }
+
+        h1 span {
+            display: block; 
+            word-wrap: break-word; 
+        }
+
+	</style>
+</head>
+<body>
+    <!-- task #2  -->
+<div class="box">width = 322.5px </div>
+
+
+    <!-- task #3  -->
+<div class="first-box">width = 255px  height = 155px</div>
+
+    <!-- task #4  -->
+<div class="second-box">width = 225px  height = 125px</div>
+
+
+    <!-- task #5  -->
+<div class="task5">width = 255px </div>
+
+    <!-- task #6  -->
+<div class="task6">width = 200px </div>
+
+    <!-- task #7 -->
+<div id="example1">
+    <p>Правило для example1: фон всередині елемента має простягатися за межі рамки.</p>
+  </div>
+
+  <div id="example2">
+    <p>Правило для example2: фон всередині елемента має простягатися до внутрішнього краю рамки.</p>
+  </div>
+
+  <div id="example3">
+    <p>Правило для example3: фон всередині елемента має простягатися до краю поля вмісту.</p>
+  </div>
+
+    <!-- task #8 -->
+  <h1><span>Awesome article</span></h1>
+
+</body>
+
+</html>
