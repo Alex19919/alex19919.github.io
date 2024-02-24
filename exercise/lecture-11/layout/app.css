@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'h h h'
+    's m m'
+    'f f f';
+}
+
+.header {
+    grid-area: h;
+    background-color: blue;
+}
+
+.main {
+    grid-area: m;
+    background-color: yellow;
+}
+
+.sidebar {
+    grid-area: s;
+    background-color: aqua;
+}
+
+.footer {
+    grid-area: f;
+    background-color: bisque;
+}
