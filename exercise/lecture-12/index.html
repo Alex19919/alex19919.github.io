@@ -15,6 +15,26 @@
     font-family: Arial, sans-serif;
     padding: 1em;
   }
+
+  @media (min-width: 768px) and (max-width: 1920px) {
+  body {
+    font-size: clamp(16px, calc(1vw + 1rem), 36px);
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    font-size: 48px;
+  }
+}
+
+
   </style>
 </head>
 
