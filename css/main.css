@@ -5,6 +5,7 @@
 @import url(/css/catalog.css);
 @import url(/css/registration.css);
 @import url(/css/cart.css);
+@import url(/css/switcher.css);
 
 :root {
     height: 100%;
@@ -31,6 +32,35 @@ a {
     text-decoration: none;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 45rem 1fr;
+    grid-template-areas:
+    'h h h'
+    's1 m m'
+    'f f f'; 
+    
+}
+.header {
+    grid-area: h;
+}
+
+.sidebar {
+    grid-area: s1;
+    border: 1px solid black;
+}
+
+.main {
+    grid-area: m;
+    border: 1px solid black;
+}
+
+.footer {
+    grid-area: f;
+}
+
+
 .header,
 .nav,
 .section,
@@ -47,6 +77,7 @@ a {
     padding: 10px;
     text-align: center;
     margin-top: 20px;
+    border-radius: 36px;
 }
 
 
@@ -73,7 +104,7 @@ a {
     transform: scale(1.1);
 }
 
-.section {
+.section .main {
     opacity: 0;
     transition: opacity 1s ease-in-out;
     flex: 1; 
@@ -119,50 +150,4 @@ a {
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease-in-out;
     display: inline-block;
-}
-
-.nav-left {
-    justify-content: flex-start;
-}
-
-.nav-right {
-    justify-content: flex-end;
-}
-
-/* Стилі для світлого режиму */
-body.light-mode {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-/* Стилі для темного режиму */
-body.dark-mode {
-    background-color: #1a1a1a;
-    color: #ffffff;
-}
-
-/* Стилі для перемикача */
-.theme-switch {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-    background-color: #19a0da;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.theme-switch:hover {
-    background-color: #1a5276;
-}
-
-/* Стилі для іконки перемикача */
-.theme-switch-icon {
-    margin-top: 2px;
 }

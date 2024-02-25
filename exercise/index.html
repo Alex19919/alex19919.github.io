@@ -9,6 +9,31 @@
     <title>My exercises</title>
 
     <style>
+        .exercises {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 20px; 
+            padding: 20px; 
+}
+        .btn {
+            display: inline-block;
+            padding: 15px 30px; 
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            background-color: #007bff; 
+        }
+
+        .btn:hover {
+            background-color: #0056b3; 
+        }
+
+        .btn:active {
+            background-color: #004080; 
+        }
+    </style>
 
 
     </style>
@@ -18,19 +43,19 @@
 
     <header class="header">
         <h1>My exercises</h1>
-        <nav class="nav">
-            <a href="./lecture-01/index.html">Lection 01</a>
-            <a href="./lecture-02/index.html">Lection 02</a>
-            <a href="./lecture-03/index.html">Lection 03</a>
-            <a href="./lecture-04/index.html">Lection 04</a>
-            <a href="./lecture-05/index.html">Lection 05</a>
-            <a href="./lecture-06/index.html">Lection 06</a>
-            <a href="./lecture-07/index.html">Lection 07</a>
-            <a href="./lecture-08/index.html">Lection 08</a>
-            <a href="./lecture-09/index.html">Lection 09</a>
-            <a href="./lecture-10/index.html">Lection 10</a>
-            <a href="./lecture-11/index.html">Lection 11</a>
-            <a href="./lecture-12/index.html">Lection 12</a>
+        <nav class="nav exercises">
+            <a class="btn" href="./lecture-01/index.html">Lection 01</a>
+            <a class="btn" href="./lecture-02/index.html">Lection 02</a>
+            <a class="btn" href="./lecture-03/index.html">Lection 03</a>
+            <a class="btn" href="./lecture-04/index.html">Lection 04</a>
+            <a class="btn" href="./lecture-05/index.html">Lection 05</a>
+            <a class="btn" href="./lecture-06/index.html">Lection 06</a>
+            <a class="btn" href="./lecture-07/index.html">Lection 07</a>
+            <a class="btn" href="./lecture-08/index.html">Lection 08</a>
+            <a class="btn" href="./lecture-09/index.html">Lection 09</a>
+            <a class="btn" href="./lecture-10/index.html">Lection 10</a>
+            <a class="btn" href="./lecture-11/index.html">Lection 11</a>
+            <a class="btn" href="./lecture-12/index.html">Lection 12</a>
 
         </nav>
     </header>
