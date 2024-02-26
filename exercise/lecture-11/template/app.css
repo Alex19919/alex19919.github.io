@@ -1,7 +1,7 @@
 .grid {
     --min: 30ch;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100%, var(--min)));
+    grid-template-columns: repeat(auto-fit, minmax(100%, var(--min)));
   }
   
   body {
@@ -11,8 +11,7 @@
   }
 
   .card {
-    min-width: 100%;
-    max-width: minmax(min(100%, var(--min)), 1fr);
+    min-width: var(--min);
     padding: 1rem;
     border: 1px solid #ccc;
 }

@@ -73,13 +73,13 @@ nav {
 }
 
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   header {
     display: flex;
     flex-direction: column;
   }
   
-  .navbar, .toolbar {
+  .navbar {
     display: flex;
     flex-direction: column;
     margin-top: 0.5rem;
@@ -104,4 +104,9 @@ nav {
   .navbar {
     text-align: center;
   }
+  .toolbar a {
+    grid-column: 5 / 6;
+    margin: 10px;
+  }
+  
 }
