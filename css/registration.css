@@ -5,39 +5,54 @@
     text-align: center;
 }
 
-.section label {
+.registration-section {
+    width: 80%; /* або будь-яка інша відповідна ширина */
+    margin: 0 auto; /* Центрує по горизонталі */
+    display: flex;
+    justify-content: center; /* Центрує по горизонталі */
+    align-items: center; /* Центрує по вертикалі */
+    height: 100vh; /* Встановлює висоту секції на весь екран */
+    flex-direction: column; /* Дозволяє вирівнювати елементи по центру колонки */
+    border: 1px solid #3498db;
+}
+
+
+
+
+.registration-section label {
     display: block;
-    margin-top: 10px; /* збільшуємо відступ між назвою і полем вводу */
+    margin-top: 10px; 
     font-weight: bold;
 }
 
-.section input[type="text"],
-.section input[type="email"],
-.section input[type="number"],
-.section select,
-.section textarea,
-.section input[type="tel"],
-.section input[type="submit"] {
+.registration-section input[type="text"],
+.registration-section input[type="email"],
+.registration-section input[type="number"],
+.registration-section select,
+.registration-section textarea,
+.registration-section input[type="tel"],
+.registration-section input[type="submit"] {
     width: calc(100% - 20px); 
-    max-width: 400px; 
+    max-width: 600px; 
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #3498db;
     border-radius: 5px;
     box-sizing: border-box;
-    font-family: Arial, sans-serif; /* центруємо елементи */
+    font-family: Arial, sans-serif;
+
 }
 
-.section input[type="text"]:focus,
-.section input[type="email"]:focus,
-.section input[type="number"]:focus,
-.section select:focus,
-.section textarea:focus,
-.section input[type="tel"]:focus {
+.registration-section input[type="text"]:focus,
+.registration-section input[type="email"]:focus,
+.registration-section input[type="number"]:focus,
+.registration-section select:focus,
+.registration-section textarea:focus,
+.registration-section input[type="tel"]:focus {
     outline: none;
     border-color: #3498db;
 }
 
-.section input[type="submit"] {
+.registration-section input[type="submit"] {
     background-color: #3498db;
     color: #fff;
     border: none;
@@ -46,8 +61,9 @@
     margin-top: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-bottom: 20px;
 }
 
-.section input[type="submit"]:hover {
+.registration-section input[type="submit"]:hover {
     background-color: #1a5276;
 }
