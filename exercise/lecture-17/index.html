@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	
+</head>
+<body>
+   
+    <!-- Task 2 - 3  (2)  в нумації на гіті опечатка з послідовністю-->
+  <script>
+
+    let x = 3;
+    let y = 4;
+    let z = 5;
+
+    x == 3;            // true
+    x === "3";         // false 
+    x != 5;            // true
+    x !== "5";         // true 
+    X !== 3;           // false    ReferenceError: X is not defined (
+    y > 5;             // false
+    y >= 3;            // true
+    y < 5;             // true
+    y <= 2;            // false
+    1 == true;         // true 
+    null == undefined; // true 
+    NaN == NaN;        // false 
+
+
+    x ||= y; // x = 3
+    x || (y = z); // x = 3
+    x &&= y; // x = 4
+    x && (y = z); // x = 4, y = 5 
+    x ??= y; // x = 4
+    x ?? (y = z); // x = 4, y = 5
+
+  </script>
+
+  <!-- Task 3 -->
+
+
+  <script>
+    
+    const secretNumber = 3;
+
+    let guess = prompt("Try to guess the number:");
+
+    if (guess !== null && !isNaN(guess)) {
+
+        guess = parseInt(guess);
+
+        if (guess === secretNumber) {
+            alert("Congratulations, You did it!"); 
+        } else if (guess > secretNumber) {
+            alert("The number is too long"); 
+        } else {
+            alert("The number is short");
+        }
+    } else {
+        
+        alert("You entered an incorrect value or canceled.");
+    }
+</script>
+
+
+<!-- Task 4 -->
+<script>
+    let day = prompt("Enter the name of the day of the week:");
+
+
+    day = day.toLowerCase();
+
+
+    // if (day === "понеділок" || day === "monday") {
+    // alert("Start of the work week!");
+    // } else if (day === "п'ятниця" || day === "friday") {
+    //     alert("End of the work week!");
+    // } else {
+    //     alert("A regular day");
+    // }
+
+
+    switch (day) {
+        case "понеділок":
+        case "monday":
+            alert("Start of the work week!");
+            break;
+        case "п'ятниця":
+        case "friday":
+            alert("End of the work week!");
+            break;
+        default:
+            alert("A regular day");
+    }
+</script>
+
+<!-- Task 5 -->
+
+<script>
+    let score = 75;
+
+    let grade;
+
+    if (score < 50) {
+        grade = 'F';
+    } else if (score < 70) {
+        grade = 'D';
+    } else if (score < 80) {
+        grade = 'C';
+    } else if (score < 90) {
+        grade = 'B';
+    } else {
+        grade = 'A';
+    }
+
+    console.log("Студент отримує ступінь: " + grade);
+
+
+//     let score = 75;
+//     let grade = score < 50 ? 'F' :
+//             score < 70 ? 'D' :
+//             score < 80 ? 'C' :
+//             score < 90 ? 'B' :
+//             'A';
+
+// console.log("Студент отримує ступінь: " + grade);
+</script>
+
+
+        <!-- Task 6 -->
+<script>
+
+    let firstName = null;
+    let lastName = undefined;
+    let username = (firstName || lastName) ?? "Guest";
+
+    console.log(username); // "Guest"
+</script>
+
+</body>
+</html>
