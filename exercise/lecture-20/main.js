@@ -6,15 +6,8 @@ const person = {
   
   console.log(Object.values(person));
   
-  // TASK 2
-  person.name = {
-    firstName: 'Johnny',
-    lastName: 'Brasco',
-  };
-  
-  console.log(Object.values(person.name));
-  
- // TASK 3 - 4
+
+ // TASK 2 - 3 - 4
   
   const person3 = {
     name: {
@@ -22,16 +15,9 @@ const person = {
         lastName: "Black",
     },
     age: 44,
-    bio: function(){
-        return console.log(
-            "Name:",
-            this.name.firstName,
-            this.name.lastName,
-            ",",
-            "Age:",
-            this.age
-          );
-        },
+    bio:function() {
+        return console.log(`Information: ${this.name.firstName} ${this.name.lastName}, ${this.age}`);
+    },
             introduceSelf: function () {
                 return console.log("Hi! I'm", this.name.firstName);
               },
