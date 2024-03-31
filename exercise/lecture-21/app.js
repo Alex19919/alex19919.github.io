@@ -13,7 +13,7 @@ for (let i = 0; i < fruitsArray.length; i++) {
 let a = 0;
 
 while (a < fruitsArray.length) {
-    console.log(fruitsArray[i]);
+    console.log(fruitsArray[a]);
     a++;
 }
 
@@ -85,13 +85,12 @@ let names13 = ['Batman', 'Catwoman', 'Joker', 'Bane'];
 let indexCatwoman = names13.indexOf('Catwoman');
 let indexJoker = names13.indexOf('Joker');
 
-if (indexCatwoman, indexJoker !== -1) {
+if (indexCatwoman !== -1 && indexJoker !== -1) {
     names13.splice(indexCatwoman, 1, 'Alfred');
     names13.splice(indexJoker, 1, 'Alfred');
 }
 
-
-console.log(names13); 
+console.log(names13);
 
 //14
 
