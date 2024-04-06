@@ -1,0 +1,19 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+li, ol {
+    text-transform: uppercase;
+}
+
+table {
+    width: 20rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+th {
+    background-color: purple;
+    color: coral;
+}
