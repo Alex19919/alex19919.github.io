@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 28</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+</head>
+
+<style>
+    * {
+  padding: 0;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.form {
+    width: 40%; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    border: 1px solid #3498db;
+    border-radius: 30px;
+
+    input[type="text"], 
+    input[type="email"], 
+    input[type="password"] {
+        width: calc(100% - 20px); 
+        max-width: 600px; 
+        padding: 10px;
+        border: 1px solid #3498db;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        
+    }
+}
+
+</style>
+
+<body>
+
+    <body class="form">
+        <div>
+        <h2>User Registration</h2>
+        <form id="registrationForm">
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" />
+          </div>
+          <div>
+            <input type="submit" value="Register" />
+          </div>
+        </form>
+    </div>
+    
+        <div id="errorMessages"></div>
+        <script src="app.js"></script>
+
+</body>
+</html>

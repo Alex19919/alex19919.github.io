@@ -123,7 +123,7 @@ const validName = /^[a-z0-9_-]{8,16}$/i;
 
 // TASK 16
 function emailCheck(email){
-    const validEmail = /^[\w-]+(?:\.[\w-]+)*@(?:[\w-]+\.)+[a-zA-Z]{2,7}$/;
+    const validEmail = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
     let matched = email.match(validEmail);
     if (validEmail.test(email)){
         console.log("Email is valid", matched);
