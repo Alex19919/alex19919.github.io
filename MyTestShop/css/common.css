@@ -1,0 +1,23 @@
+/* common.css */
+
+/* html {
+    --main-color: #009;
+    --anchor-color: salmon;
+} */
+
+:root {
+    --primary-text-color: #000;
+    --primary-bg-color: #fff;
+    }
+
+    body {
+        color: var(--primary-text-color);
+        background-color: var(--primary-bg-color);
+    }
+
+    footer {
+        --footer-text-color: #fff;
+        --footer-bg-color: #000;
+        color: var(--footer-text-color);
+        background-color: var(--footer-bg-color);
+    }

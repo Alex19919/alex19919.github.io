@@ -1,0 +1,31 @@
+.catalog {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.catalog .nav {
+    display: flex;
+    list-style: none; 
+    justify-content: center; /* Вирівнює по центру */
+}
+
+.catalog .nav li {
+    display: inline; /* Зробити елементи <li> блочними, але в одному ряду */
+    margin-right: 10px; /* Відступи між елементами */
+}
+
+.catalog .nav a {
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out, color 0.3s ease; /* Додана transition для кольору тексту */
+    border: 1px solid #fff;
+}
+
+.icon-link {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+}
