@@ -39,14 +39,9 @@ console.log(result);
 //  4
 
 const arr = [1, 2, 3, [10, 11, 12], 21, 22, 23, [31, 32, 33, 34], [41, 42]];
-const flattenedArray = arr.reduce((accumulator, currentValue) => {
-  if (Array.isArray(currentValue)) {
-    return accumulator.concat(currentValue);
-  } else {
-    accumulator.push(currentValue);
-    return accumulator;
-  }
-}, []);
+
+const flattenedArray = array.reduce((final, current) => final.concat(current), []);
+
 console.log(flattenedArray);
 
 // 5
