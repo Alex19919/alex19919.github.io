@@ -27,16 +27,22 @@
         right: 0;
         background-color: white;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+       
+        
 
         > a {
             font-size: 1.1rem;
             margin-right: .5rem;
             color: var(--anchor-color);
             display: block;
+            border: 1px solid black;
+            border-radius: 30px;
+            padding: 10px;
+            transition: background-color 0.3s ease, transform 0.3s ease-in-out;
         }
         > a:hover {
             color: var(--anchor-active-color);
-            text-decoration: underline;
+            transform: scale(1.1);
         }
 
         

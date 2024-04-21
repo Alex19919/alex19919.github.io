@@ -1,3 +1,14 @@
+document.addEventListener("DOMContentLoaded", function() {
+    document.body.style.opacity = "1";
+    document.querySelector(".section").style.opacity = "1";
+});
+
+function toggleTheme() {
+            const body = document.body;
+            body.classList.toggle('light-mode');
+            body.classList.toggle('dark-mode');
+        }
+
 "use strict";
 
 const currency = (total) => parseFloat(Math.round(total * 100) / 100).toFixed(2);
