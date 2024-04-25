@@ -5,7 +5,7 @@ let products = [
 			title: "Sold",
 			bg: "sold"	
 		},
-		image: "/images/product-1.jpg",
+		image: "/images/JM/Shop/1(1).png",
 		name: "Kui Ye Chen’s AirPods",
 		price: 21,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
@@ -19,7 +19,7 @@ let products = [
 			title: "",
 			bg: ""	
 		},
-		image: "/images/product-2.jpg",
+		image: "/images/JM/Shop/1(1).png",
 		name: "Apple wireless keyboard",
 		price: 30,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
@@ -72,7 +72,7 @@ let products = [
 			title: "",
 			bg: ""	
 		},
-		image: "/images/product-6.jpg",
+		image: "/images/JM/Shop/1(7).png",
 		name: "Nike air max 95",
 		price: 31,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
@@ -179,7 +179,7 @@ let products = [
 let categories = [
 	{
 		id: 1,
-		image: "/images/product-1.jpg",
+		image: "/images/JM/Shop/1(1).png",
 		section: "Electronics",
     	name: "Headphone"
 	},
