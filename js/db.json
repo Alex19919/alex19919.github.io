@@ -1,82 +1,120 @@
-[
-	{
-		"id": 1,
-		"badge": {
-			"title": "Sold",
-			"bg": "sold"	
-		},
-		"image": "/images/JM/Shop/1(1).png",
-		"name": "Срібний браслет",
-		"price": 21,
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
-		"stars": 4,
-		"category": 1
-
-	},
-	{
-		"id": 2,
-		"badge": {
-			"title": "",
-			"bg": ""	
-		},
-		"image": "/images/JM/Shop/1(4).png",
-		"name": "Золотий ланцюжок",
-		"price": 30,
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
-		"stars": 5,
-		"category": 2
-	},
-	{
-		"id": 3,
-		"badge": {
-			"title": "New",
-			"bg": "new"	
-		},
-		"image": "/images/JM/Shop/1(7).png",
-		"name": "Обрчуки",
-		"price": 5,
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
-		"stars": 4,
-		"category":3
-	},
-	{
-		"id": 4,
-		"badge": {
-			"title": "",
-			"bg": ""	
-		},
-		"image": "/images/JM/Shop/Screenshot_8.png",
-		"name": "Ланцюжок + кулон 'Серце'",
-		"price": 51,
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
-		"stars": 1,
-		"category": 4
-	},
-	{
-		"id": 5,
-		"badge": {
-			"title": "Sale",
-			"bg": "sale"	
-		},
-		"image": "/images/JM/Shop/Screenshot_8.png",
-		"name": "Ланцюжок + хрестик",
-		"price": 100,
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
-		"stars": 5,
-		"category": 4
-	},
-
-	{
-		"id": 6,
-		"badge": {
-			"title": "",
-			"bg": ""	
-		},
-		"image": "/images/JM/Shop/Screenshot_11.png",
-		"name": "Сере́жки",
-		"price": 31,
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
-		"stars": 5,
-		"category":  5
-	}
-]
+{
+	"products":[
+	   {
+		  "id": 1,
+		  "badge": {
+			 "title": "Sold",
+			 "bg": "sold"
+		  },
+		  "image": "/images/JM/Shop/1(6).png",
+		  "name": "Срібний браслет",
+		  "price": 21,
+		  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+		  "stars": 4,
+		  "category": 1
+	   },
+	   {
+		  "id": 2,
+		  "badge": {
+			 "title": "",
+			 "bg": ""
+		  },
+		  "image": "/images/JM/Shop/Screenshot_20.png",
+		  "name": "Золотий ланцюжок",
+		  "price": 30,
+		  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+		  "stars": 5,
+		  "category": 2
+	   },
+	   {
+		  "id": 3,
+		  "badge": {
+			 "title": "New",
+			 "bg": "new"
+		  },
+		  "image": "/images/JM/Shop/1(7).png",
+		  "name": "Обрчуки",
+		  "price": 5,
+		  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+		  "stars": 4,
+		  "category": 3
+	   },
+	   {
+		  "id": 4,
+		  "badge": {
+			 "title": "",
+			 "bg": ""
+		  },
+		  "image": "/images/JM/Shop/Screenshot_8.png",
+		  "name": "Ланцюжок + кулон 'Серце'",
+		  "price": 51,
+		  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+		  "stars": 4,
+		  "category": 4
+	   },
+	   {
+		  "id": 5,
+		  "badge": {
+			 "title": "Sale",
+			 "bg": "sale"
+		  },
+		  "image": "/images/JM/Shop/Screenshot_9.png",
+		  "name": "Ланцюжок + хрестик",
+		  "price": 100,
+		  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+		  "stars": 5,
+		  "category": 4
+	   },
+	   {
+		  "id": 6,
+		  "badge": {
+			 "title": "",
+			 "bg": ""
+		  },
+		  "image": "/images/JM/Shop/Screenshot_11.png",
+		  "name": "Сере́жки",
+		  "price": 31,
+		  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+		  "stars": 5,
+		  "category": 5
+	   }
+	],
+	"categories":[
+	   {
+		  "id": 1,
+		  "image": "/images/JM/Shop/1(6).png",
+		  "name": "Срібний браслет",
+		  "section": "Браслети"      
+	   },
+	   {
+		  "id": 2,
+		  "image": "/images/JM/Shop/Screenshot_20.png",
+		  "name": "Золотий ланцюжок",   
+		  "section": "Ланцюжки"
+	   },
+	   {
+		  "id": 3,
+		  "image": "/images/JM/Shop/1(7).png",
+		  "name": "Обрчуки",
+		  "section": "Обрчуким"
+	   },
+	   {
+		  "id": 4,
+		  "image": "/images/JM/Shop/Screenshot_8.png",
+		  "name": "Ланцюжок + кулон 'Серце'",
+		  "section": "Ланцюжки"
+	   },
+	   {
+		  "id": 5,
+		  "image": "/images/JM/Shop/Screenshot_9.png",
+		  "name": "Ланцюжок + хрестик",
+		  "section": "Ланцюжки"
+	   },
+	   {
+		  "id": 6,
+		  "image": "/images/JM/Shop/Screenshot_11.png",
+		  "name": "Сере́жки",
+		  "section": "Сере́жки"
+	   }
+	]
+ }

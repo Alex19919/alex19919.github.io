@@ -5,7 +5,7 @@ let products = [
 			title: "Sold",
 			bg: "sold"	
 		},
-		image: "/images/JM/Shop/1(1).png",
+		image: "/images/JM/Shop/1(6).png",
 		name: "Срібний браслет",
 		price: 21,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
@@ -19,7 +19,7 @@ let products = [
 			title: "",
 			bg: ""	
 		},
-		image: "/images/JM/Shop/1(4).png",
+		image: "/images/JM/Shop/Screenshot_20.png",
 		name: "Золотий ланцюжок",
 		price: 30,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
